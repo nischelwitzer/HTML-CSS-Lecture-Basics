@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Canvas Example</title>
+	</head>
+
+	<body>
+
+		<h1> Canvas </h1>
+
+		<canvas id="myCanvas" width="500" height="200" style="border:1px solid #000000;"></canvas>
+
+		<script>
+			var c = document.getElementById("myCanvas");
+			var ctx = c.getContext("2d");
+			var x = 150;
+			var y = 150;
+			
+			console.log("JS started");
+
+			function draw() {
+				ctx.clearRect(0, 0, 500, 200);
+
+				ctx.beginPath();
+				ctx.fillStyle = "#FF0000";
+				ctx.arc(x, y, 40, 0, 2 * Math.PI);
+				ctx.stroke();
+				ctx.fill();
+				console.log("Move: "+x);
+			}
+
+			function onMouseMove(evt) {
+				x = evt.pageX;
+			}
+
+			setInterval(draw, 10);
+			document.onmousemove = onMouseMove;
+		</script>
+
+	</body>
+</html>

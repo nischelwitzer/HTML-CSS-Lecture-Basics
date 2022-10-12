@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Key Event Example</title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  </head> 
+
+  <body>
+ 
+    <h2 id="header">Key Event Example</h2>
+    <p id="info">Info</p>
+    <p id="infocursor">Info</p>
+
+
+    <script type="text/javascript">
+  	  console.log("##### JS Started");
+
+      var cnt=0, cntUp=0;
+      document.onkeypress=function(evt){
+        evt = evt || window.event; // IE 9< fallback
+        cnt++;
+        console.log(">>>>> onkeypress "+cnt+" "+evt.which+" "+String.fromCharCode(evt.which));
+        $("#info").html("<b>Info onkeypres:</b> "+cnt+" "+evt.which+" "+String.fromCharCode(evt.which));
+      };
+
+      document.onkeyup=function(evt){
+        cntUp++;
+        console.log(">>>>> onkeyup "+cntUp+" "+evt.which+" "+String.fromCharCode(evt.which));
+        $("#infocursor").html("<b>InfoCursor onkeyup:</b> "+cntUp+" "+evt.which+" "+String.fromCharCode(evt.which));
+      };
+  	
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg" >
+
+  <circle cx="250" cy="250" r="100" stroke="green" stroke-width="4" fill="orange" />
+
+  <line x1="0"   y1="0" x2="500" y2="500" stroke="black" stroke-width="1" />
+  <line x1="500" y1="0" x2="0"   y2="500" stroke="black" stroke-width="1" />
+
+  <line x1="150" y1="150" x2="150" y2="350" stroke="blue" stroke-width="2" />
+  <line x1="150" y1="350" x2="350" y2="350" stroke="blue" stroke-width="2" />
+  <line x1="350" y1="350" x2="350" y2="150" stroke="blue" stroke-width="2" />
+  <line x1="350" y1="150" x2="150" y2="150" stroke="blue" stroke-width="2" />
+  
+  <path d='M 200 200 L 300,200 L 300 300 L 200 300 L 200 200 Z'   
+        style='stroke:#000000;fill:none' />
+  <path d='M 100 100 L 400,100 L 400 400 L 100 400 L 100 100 Z'   
+        style='stroke:#ff0000;fill:none' />
+	
+</svg>
+
