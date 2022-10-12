@@ -3,6 +3,9 @@
 
 ![HTML Basics](/assets/logo.png)
 
+* Editor: https://notepad-plus-plus.org/downloads/
+* Browser: https://www.google.com/chrome
+
 ## Links
 
 * https://validator.w3.org/
