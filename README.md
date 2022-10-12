@@ -6,3 +6,10 @@
 ## Links
 
 * https://validator.w3.org/
+* https://www.w3schools.com/html/default.asp
+
+
+```
+<html>
+</html>
+```
