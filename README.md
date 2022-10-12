@@ -8,7 +8,8 @@
 * https://validator.w3.org/
 * https://www.w3schools.com/html/default.asp
 
-
+## HTML
+### Template HTML5 Page
 ```
 <!DOCTYPE HTML>
 <html lang="de">
