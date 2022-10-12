@@ -1,5 +1,8 @@
 # HTML/CSS Lecture Basics
- HTML/CSS Lecture Basics
+## HTML/CSS Lecture Basics
+
+Kursunterlagen für den Basiskurs HTML/CSS an der FH JOANNEUM in Graz.
+Aktuelle Version für DEM (Department Management - Digital Entrepreneurship).
 
 ![HTML Basics](/assets/logo.png)
 
