@@ -8,8 +8,10 @@
 
 ## Links
 
-* https://validator.w3.org/
-* https://www.w3schools.com/html/default.asp
+* Checker https://validator.w3.org/
+* Kurs https://www.w3schools.com/html/default.asp
+* Editor http://www.aptana.com/
+* http://w3.nischi.at/
 
 ## HTML
 ### Template HTML5 Page
